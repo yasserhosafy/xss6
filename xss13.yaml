@@ -1,0 +1,6 @@
+openapi: 3.0.0
+info:
+  title: XSS test
+  description: "<img src='http://malicious.com/nonexistent.jpg' onerror='eval(String.fromCharCode(97,108,101,114,116) + String.fromCharCode(40,34,88,83,83,34))'>"
+  version: 1.0.0
+paths: {}
