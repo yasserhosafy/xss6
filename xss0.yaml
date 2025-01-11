@@ -1,0 +1,6 @@
+openapi: 3.0.0
+info:
+  title: XSS test
+  description: "<a href='JavaScript://%250Aalert?.()' target='_blank'>Click here</a>"
+  version: 1.0.0
+paths: {}
