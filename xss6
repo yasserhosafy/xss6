@@ -1,0 +1,6 @@
+openapi: 3.0.0
+info:
+  title: XSS test
+  description: "<form action='http://malicious.com' method='get'><button type='submit'>Click to Submit</button></form>"
+  version: 1.0.0
+paths: {}
