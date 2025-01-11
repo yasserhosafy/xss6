@@ -1,0 +1,6 @@
+openapi: 3.0.0
+info:
+  title: XSS test
+  description: "<img src='http://malicious.com/nonexistent.jpg' onclick='confirm(\"XSS\")'>"
+  version: 1.0.0
+paths: {}
