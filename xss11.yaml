@@ -1,0 +1,6 @@
+openapi: 3.0.0
+info:
+  title: XSS test
+  description: "<div style='background-image: url(javascript:alert(\"XSS\"))'>Test XSS</div>"
+  version: 1.0.0
+paths: {}
